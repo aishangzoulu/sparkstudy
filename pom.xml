@@ -45,7 +45,7 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.12.1</version>
+            <version>2.11.8</version>
         </dependency>
     </dependencies>
 
@@ -64,7 +64,7 @@
                     <archive>
                         <manifest>
                             <!-- Jar file entry point -->
-                            <mainClass>info.raylew.spark.core.JavaWordCount</mainClass>
+                            <mainClass>cn.systemdesigner.spark.core.WordCount</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
